@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="joystix monospace.ttf">
+            <string>JoystixMonospace-Regular</string>
+            <string>JoystixMonospace-Regular</string>
+            <string>JoystixMonospace-Regular</string>
+            <string>JoystixMonospace-Regular</string>
+            <string>JoystixMonospace-Regular</string>
+        </mutableArray>
+        <mutableArray key="led_board-7.ttf">
+            <string>LEDBoard-7</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Trips_Traps_Trull" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Taust" id="U2E-2g-EwY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sildi-Taust" id="oJk-Vo-2AH">
+                                <rect key="frame" x="-1" y="19" width="322" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EkG-eN-hMo">
+                                <rect key="frame" x="25" y="145" width="90" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut1Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="O9M-XC-qPE"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UCp-UA-Fy9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="35f-xa-PeW">
+                                <rect key="frame" x="116" y="150" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut2Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Yh-1x-ORf"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Yaz-eL-OPL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PBW-S5-oXl">
+                                <rect key="frame" x="210" y="150" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut3Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6dq-vb-khq"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xVg-mb-oua"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HLh-h4-aoe">
+                                <rect key="frame" x="25" y="240" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut4Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2bZ-9c-AgY"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mBe-u3-Hw5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zpu-t5-XZk">
+                                <rect key="frame" x="116" y="240" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut5Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VBT-cm-7fI"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mjy-D9-dJ0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gLQ-BS-kXp">
+                                <rect key="frame" x="210" y="240" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut6Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oWf-7E-6iM"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pez-ic-hC9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BNJ-NQ-cEV">
+                                <rect key="frame" x="25" y="330" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut7Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lou-9P-3O8"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1vz-WX-7hn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vxs-TQ-6Db">
+                                <rect key="frame" x="116" y="330" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut8Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Iij-Z8-63d"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Afu-xG-Pmx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5kB-uM-ZPT">
+                                <rect key="frame" x="210" y="330" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Ruut9Vajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Rkc-pl-YEw"/>
+                                    <action selector="ÜhteRuutuVajutati:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rez-6k-6eP"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="BWa-KI-Dbg">
+                                <rect key="frame" x="136" y="463" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="onTintColor" red="0.81104008839999997" green="0.0" blue="0.030062028679999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="MängijaNuppuVahetati:" destination="vXZ-lx-hvc" eventType="valueChanged" id="WkS-pG-Eec"/>
+                                </connections>
+                            </switch>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="X" id="x9o-KY-LbU">
+                                <rect key="frame" x="78" y="454" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="O" id="ris-66-U66">
+                                <rect key="frame" x="193" y="454" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kaa-Dp-1lf">
+                                <rect key="frame" x="25" y="471" width="275" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="JoystixMonospace-Regular" family="Joystix" pointSize="25"/>
+                                <state key="normal" title="Uus Mäng">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="UusMängHakkab:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="b3f-oD-lK0"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="VeC-pV-Pcx">
+                                <rect key="frame" x="78" y="520" width="165" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Lihtne"/>
+                                    <segment title="Keeruline"/>
+                                </segments>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </segmentedControl>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Viik" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" id="cmR-9S-l9t">
+                                <rect key="frame" x="7" y="26" width="306" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="LEDBoard-7" family="LED Board-7" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.83224559473872339" blue="0.1046985909027196" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="stW-gJ-tSw" userLabel="VõiduKriips">
+                                <rect key="frame" x="2" y="126" width="316" height="316"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mängija" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b02-nT-ULe">
+                                <rect key="frame" x="2" y="73" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="JoystixMonospace-Regular" family="Joystix" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h3W-oe-n4G" userLabel="MängijaVõitudeSilt">
+                                <rect key="frame" x="32" y="88" width="52" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="JoystixMonospace-Regular" family="Joystix" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arvuti" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NWZ-ak-uMS">
+                                <rect key="frame" x="210" y="72" width="110" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="JoystixMonospace-Regular" family="Joystix" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="meK-GA-XRn" userLabel="ArvutiVõitudeSilt">
+                                <rect key="frame" x="239" y="86" width="52" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="JoystixMonospace-Regular" family="Joystix" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="ArvutiVõitudeSilt" destination="meK-GA-XRn" id="AUh-aP-k11"/>
+                        <outlet property="Info" destination="cmR-9S-l9t" id="Dhb-0Q-BaL"/>
+                        <outlet property="MängijaNimeSilt" destination="b02-nT-ULe" id="K8R-j7-vmU"/>
+                        <outlet property="MängijaNupuLüliti" destination="BWa-KI-Dbg" id="0j4-6w-EkF"/>
+                        <outlet property="MängijaVõitudeSilt" destination="h3W-oe-n4G" id="76K-AF-bMm"/>
+                        <outlet property="ODemo" destination="ris-66-U66" id="sc1-Ei-R5f"/>
+                        <outlet property="Ruut1" destination="EkG-eN-hMo" id="exd-ZR-EKW"/>
+                        <outlet property="Ruut2" destination="35f-xa-PeW" id="DS4-EJ-nus"/>
+                        <outlet property="Ruut3" destination="PBW-S5-oXl" id="NDc-ng-0ZZ"/>
+                        <outlet property="Ruut4" destination="HLh-h4-aoe" id="9PU-BJ-BGE"/>
+                        <outlet property="Ruut5" destination="zpu-t5-XZk" id="dtb-im-gWO"/>
+                        <outlet property="Ruut6" destination="gLQ-BS-kXp" id="8Lu-y9-IO7"/>
+                        <outlet property="Ruut7" destination="BNJ-NQ-cEV" id="vBG-Nl-36d"/>
+                        <outlet property="Ruut8" destination="Vxs-TQ-6Db" id="eIq-vA-bXt"/>
+                        <outlet property="Ruut9" destination="5kB-uM-ZPT" id="Okx-0N-ATW"/>
+                        <outlet property="TasemeValik" destination="VeC-pV-Pcx" id="nBE-CP-4Lj"/>
+                        <outlet property="UusMäng" destination="kaa-Dp-1lf" id="YJb-cI-EPI"/>
+                        <outlet property="VõiduKriips" destination="stW-gJ-tSw" id="eeX-LT-4fR"/>
+                        <outlet property="XDemo" destination="x9o-KY-LbU" id="PcL-1H-pS7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="336"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="O" width="200" height="200"/>
+        <image name="Sildi-Taust" width="161" height="25"/>
+        <image name="Taust" width="320" height="568"/>
+        <image name="X" width="200" height="200"/>
+    </resources>
+    <color key="tintColor" red="0.36892218809999999" green="0.70697965689999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
